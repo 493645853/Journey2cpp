@@ -29,10 +29,12 @@ int main(void)
     }
 
     // 2. iterator
-    for(auto i=vec_int.cbegin();i!=vec_int.cend();i++)
+    for(auto i=vec_int.cbegin();i!=vec_int.cend();++i)
     {
         std::cout<<*i<<std::endl;
     }
+
+    
 
     /**
      * @brief Avoid termination
